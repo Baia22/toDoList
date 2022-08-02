@@ -13,6 +13,7 @@ button.addEventListener("click", function() {
     let button1=document.createElement("button")
     button1.innerHTML="Delete"
     addMore.appendChild(button1)
+    input.value=""
 
     button1.addEventListener("click", function(){
         addMore.style.display="none"
